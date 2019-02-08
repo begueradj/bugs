@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookExample.vue is a Vue instance 1`] = `
+<v-container-stub tag="div" grid-list-md="" text-xs-center="" fill-height="">
+  <v-layout-stub tag="div" row="" wrap="" align-center="">
+    <v-flex-stub tag="div" xs12="">
+      <h4> Mastering Metasploit</h4>
+    </v-flex-stub>
+  </v-layout-stub>
+</v-container-stub>
+`;
