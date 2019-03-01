@@ -82,3 +82,7 @@ dist
 
 # Service worker
 sw.*
+
+# node_modules
+adonisjs_migration_reset/node_modules
+adonisjs_migration_reset/.env
