@@ -19,3 +19,22 @@ The goal of this repo is to reproduce the following error message:
 
 ## Author
 Billal Begueradj
+
+
+## Update:
+
+I fixed it:
+
+```
+down () {                                                                     
+    this.table('persons', (table) => {                                          
+      table.dropForeign('country_name')                                         
+      table.dropColumn('country_name')                                          
+      table.dropPrimary()                                                       
+      table.dropColumn('ssn')                                                   
+      table.dropColumns('lname', 'fname')                                       
+      table.string('name', 30).notNullable().primary()                          
+      table.timestamps()                                                        
+    })                                                                          
+  }    
+```
