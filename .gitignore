@@ -86,3 +86,5 @@ sw.*
 # node_modules
 adonisjs_migration_reset/node_modules
 adonisjs_migration_reset/.env
+seed-bug/node_modules
+seed-bug/.env
