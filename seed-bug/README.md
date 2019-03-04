@@ -1,4 +1,4 @@
-# Adonis API application
+## AdonisJs can not seed: TypeError: faker.foo is not a function 
 
 1. Clone this repo
 2. Install the dependencies: `npm install`
