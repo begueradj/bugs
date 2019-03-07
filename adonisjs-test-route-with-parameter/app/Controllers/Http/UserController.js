@@ -2,7 +2,7 @@
 
 class UserController {
   index() {
-    return 'hi'
+    return 'hello'
   }
 
   create() {
