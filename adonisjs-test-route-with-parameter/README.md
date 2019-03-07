@@ -7,3 +7,5 @@
 You get a 500 HTTP error code.
 
 Billal Begueradj
+
+P.S. This is fixed since then
